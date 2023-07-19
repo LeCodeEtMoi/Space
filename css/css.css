@@ -34,14 +34,10 @@ nav ul li a {
 nav ul li a:hover {
   background-color: #ec799e;
 }
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 
 }
 h1 {
-  font-family: 'Roboto';
+  font-family: 'Robotos';
 }
 .container {
    padding: 20px;
@@ -111,10 +107,13 @@ h1 {
 
 .card-content a {
   display: inline-block;
-  background-color: #ccc;
-  color: #fff;
+  color: black;
   padding: 5px 10px;
   border-radius: 4px;
-  text-decoration: none;
+  
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
