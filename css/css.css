@@ -1,5 +1,6 @@
 body{
   background-color: #d1e1f5;
+
 }
 nav {
   background-color: #e2346b;
@@ -12,6 +13,7 @@ nav {
   font-size: 20px;
   font-weight: bold;
   padding: 10px;
+  font-family: sans-serif;
 }
 
 nav ul {
@@ -29,6 +31,7 @@ nav ul li a {
   padding: 9px 20px;
   color: #fff;
   text-decoration: none;
+  font-family: sans-serif;
 }
 
 nav ul li a:hover {
@@ -37,7 +40,8 @@ nav ul li a:hover {
 
 }
 h1 {
-  font-family: 'Robotos';
+  font-family: sans-serif;
+
 }
 .container {
    padding: 20px;
@@ -49,6 +53,8 @@ h1 {
 
 .container h1 {
    text-align: center;
+   font-weight: bold;
+   font-family: sans-serif;
 }
 
 .container p {
@@ -107,10 +113,11 @@ h1 {
 
 .card-content a {
   display: inline-block;
-  color: black;
+  color:#e2346b;
+  font-weight: bold;
   padding: 5px 10px;
   border-radius: 4px;
-  
+  font-family: sans-serif;
 }
 
 * {
