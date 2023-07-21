@@ -2,6 +2,14 @@ body{
   background-color: #d1e1f5;
 
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
 nav {
   background-color: #e2346b;
   color: #fff;
@@ -90,6 +98,12 @@ h1 {
   box-shadow: 0 7px 9px rgba(0, 0, 0, 0.2); /* Ajout de l'ombre */
 }
 
+.card a {
+  color: white;
+  text-decoration: none;
+
+}
+
 .card img {
   width: 100%;
   border-radius: 8px;
@@ -111,25 +125,18 @@ h1 {
   margin-bottom: 10px;
 }
 
+/* Liens dans .card-content */
 .card-content a {
   display: inline-block;
-  color:#e2346b;
+  color: #e2346b;
   font-weight: bold;
-  padding: 5px 10px;
   border-radius: 4px;
   font-family: sans-serif;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-
+/* Bouton avec lien */
 button {
-
-  backgrund-color: #e2346b;
+  background-color: #e2346b;
   font-family: sans-serif;
   font-weight: bold;
   border: none;
@@ -141,10 +148,13 @@ button {
   font-size: 16px;
   border-radius: 5px;
   float: right; 
-
 }
 
-.bouton {
-
-
+/* Texte dans le bouton avec lien */
+button .a {
+  color: white;
 }
+
+/* Texte dans un lien à l'intérieur d'un bouton */
+button .a:hover {
+ }
